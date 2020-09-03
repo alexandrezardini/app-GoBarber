@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 import { Platform } from 'react-native';
+import { Form } from '@unform/mobile';
 
 export const Container = styled.View`
   flex: 1;
@@ -7,6 +8,10 @@ export const Container = styled.View`
   justify-content: center;
   /* padding: 0 30px ${Platform.OS === 'android' ? 150 : 40}px; */
   padding: 0 30px ${Platform.OS === 'android' ? 50 : 40}px;
+`;
+
+export const FormContent = styled(Form)`
+  width: 100%;
 `;
 
 export const Title = styled.Text`
