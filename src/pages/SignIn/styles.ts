@@ -19,7 +19,7 @@ export const Title = styled.Text`
   color: #f4e4e8;
   font-family: 'RobotoSlab-Medium';
   margin: 24px 0 24px;
-  /* margin: 64px 0 24px;  */
+  margin: 64px 0 24px;
 `;
 
 export const ForgotPassword = styled.TouchableOpacity`
