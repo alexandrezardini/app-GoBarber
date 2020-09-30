@@ -56,8 +56,14 @@ export const ProvidersListContainer = styled.View`
   height: 112px;
 `;
 
-export const ProvidersList = styled(FlatList as new () => FlatList<IProvider>)`
-  padding: 32px 24px;
+export const ProvidersList = styled(
+  FlatList as new () => FlatList<IProvider>,
+).attrs({
+  contentContainerStyle: { paddingHorizontal: 24 },
+  horizontal: true,
+  showsHorizontalScrollIndicator: false,
+})`
+  padding: 32px 0;
 `;
 
 export const ProviderContainer = styled(RectButton)<IProviderContainerProps>`
