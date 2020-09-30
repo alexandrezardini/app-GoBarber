@@ -66,7 +66,6 @@ const Dashboard: React.FC = () => {
 
       <ProvidersList
         data={providers}
-        scrollEnabled
         keyExtractor={provider => provider.id}
         ListHeaderComponent={<ProvidersListTitle>Barbeiros</ProvidersListTitle>}
         renderItem={({ item: provider }) => (
