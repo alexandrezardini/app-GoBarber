@@ -12,7 +12,7 @@
   <img src="./readmeFiles/SignUp_ok.png" alt="Sign up ok" height="425">
   <img src="./readmeFiles/Dashboard.png" alt="Dashboard ok" height="425">
   <img src="./readmeFiles/Profile.png" alt="Profile" height="425">
-  <img src="./readmeFiles/Appointment.png" alt="Appointment" height="425" width="200">
+  <img src="./readmeFiles/Appointment.png" alt="Appointment" height="525" width="200">
   <img src="./readmeFiles/Appointment_ok.png" alt="Appointment ok" height="425">
 </div>
 
